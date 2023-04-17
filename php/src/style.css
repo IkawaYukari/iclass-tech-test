@@ -1,1 +1,41 @@
+.row {
+    display: flex;
+}
+
+.row div {
+    flex: 1;
+    padding: 15px 0;
+}
+
+.header {
+    text-align: center;
+    font-weight: 600;
+}
+
+.genF {
+    background-color: red;
+    color: white;
+}
+
+.genM {
+    background-color: blue;
+    color: white;
+}
+
+.num {
+    text-align: right;
+}
+
+.popup {
+    display: none;
+    color: black;
+    background: lightgreen;
+    border: 1px solid black;
+    position: absolute;
+    padding: 8px;
+}
+
+.row:hover .popup {
+    display: block;
+}
 
